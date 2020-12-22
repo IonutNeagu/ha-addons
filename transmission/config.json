@@ -3,7 +3,7 @@
     "version": "dev",
     "slug": "transmission",
     "description": "The torrent client for Home Assistant",
-    "url": "https://github.com/IonutNeagu/ha-addons/transmission",
+    "url": "https://github.com/IonutNeagu/ha-addons/tree/master/transmission",
     "webui": "http://[HOST]:[PORT:9091]/transmission/web/",
     "startup": "services",
     "ingress": "true",

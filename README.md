@@ -1,7 +1,7 @@
-# Hassio Add-ons by petersendev
+# Home Assistant Add-ons by Ionut Neahu
 
 ## About
-My hassio addon repository.
+My Home Assistant addon repository.
 
 ## Installation
 
@@ -35,4 +35,4 @@ Transmission with WebUI
 
 [//]: # (ADDONLIST_END)
 
-[third-party-addons]: https://home-assistant.io/hassio/installing_third_party_addons/
+[third-party-addons]: https://home-assistant.io/Home Assistant/installing_third_party_addons/
