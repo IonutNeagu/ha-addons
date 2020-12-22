@@ -1,0 +1,37 @@
+#!/usr/bin/with-contenv bash
+
+if [ ! -d /media/tvseries ]; then
+  echo "Creating media/tvseries"
+  mkdir -p /media/tvseries
+  chown -R abc:abc /media/tvseries
+fi
+
+if [ ! -d /media/movies ]; then
+  echo "Creating /media/movies"
+  mkdir -p /media/movies
+  chown -R abc:abc /media/movies
+fi
+
+if [ ! -d /share/jellyfin/data ]; then
+  echo "Creating /share/jellyfin/data"
+  mkdir -p /share/jellyfin/data
+  chown -R abc:abc /share/jellyfin/data
+fi
+
+if [ ! -d /share/jellyfin/cache ]; then
+  echo "Creating /share/jellyfin/cache"
+  mkdir -p /share/jellyfin/cache
+  chown -R abc:abc /share/jellyfin/cache
+fi
+
+if [ ! -d /share/jellyfin/log ]; then
+  echo "Creating /share/jellyfin/log"
+  mkdir -p /share/jellyfin/log
+  chown -R abc:abc /share/jellyfin/log
+fi
+
+if [ ! -d /config/jellyfin ]; then
+  echo "Creating /config/jellyfin"
+  mkdir -p /config/jellyfin
+  chown -R abc:abc /config/jellyfin
+fi
