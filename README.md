@@ -1,4 +1,4 @@
-# Home Assistant Add-ons by Ionut Neahu
+# Home Assistant Add-ons by Ionut Neagu
 
 ## About
 My Home Assistant addon repository.

@@ -1,4 +1,4 @@
-# Hassio Add-ons by petersendev: Jellyfin
+# Hassio Add-ons by Ionut Neagu: Jellyfin
 
 ## About
 

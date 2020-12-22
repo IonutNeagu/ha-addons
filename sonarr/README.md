@@ -1,4 +1,4 @@
-# Home Assistant Add-ons by ionutneagu: Sonarr
+# Home Assistant Add-ons by Ionut Neagu: Sonarr
 
 ## About
 
