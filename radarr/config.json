@@ -1,14 +1,9 @@
 {
-  "name": "radarr",
-  "version": "0.6.1",
-  "slug": "radarr",
-  "legacy": false,
-  "maintenance": {
-    "github_release": "https://github.com/linuxserver/docker-radarr",
-    "version_regex": "v(\\d+\\.\\d+\\.\\d+\\.\\d+)-(ls\\d+)"
-  },
-  "description": "A fork of Sonarr to work with movies à la Couchpotato",
-  "url": "https://github.com/IonutNeagu/ha-addons/tree/master/radarr#readme",
+  "name": "Radarr",
+  "version": "latest",
+  "slug": "radarr_docker",
+  "description": "Radarr add-on based on the prebuilt docker image from linuxserver",
+  "url": "https://github.com/marcelveldt/hassio-addons-repo/radarr",
   "startup": "services",
   "arch": [
     "aarch64",
@@ -18,30 +13,18 @@
   "ports": {
     "7878/tcp": 7878
   },
-  "ports_description": {
-    "7878/tcp": "web interface"
-  },
   "map": [
-    "config:rw",
-    "share:rw",
+    "backup:rw",
     "media:rw",
+    "share:rw",
     "ssl"
   ],
   "webui": "http://[HOST]:[PORT:7878]",
   "boot": "auto",
-  "options": {
+  "environment": {
     "PUID": 1001,
     "PGID": 1001
   },
-  "schema": {
-    "PUID": "int",
-    "PGID": "int",
-    "TZ": "str?"
-  },
-  "snapshot_exclude": [
-    "**/Backups/*",
-    "**/logs/*",
-    "**/MediaCover/*"
-  ],
-  "image": "petersendev/hassio-radarr-{arch}"
+  "options": {},
+  "schema": {}
 }

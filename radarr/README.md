@@ -1,10 +1,9 @@
-# Hassio Add-ons by Ionut Neagu: Radarr
+# Marcelveldt's Hassio Add-ons: Radarr
 
 ## About
 
-[Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies à la Couchpotato.
-
-This addon is based on the [docker image](https://github.com/linuxserver/docker-radarr) from linuxserver.io.
+Radarr add-on based on the prebuilt docker image from linuxserver
+Radarr - A fork of Sonarr to work with movies à la Couchpotato.
 
 ## Installation
 
@@ -21,7 +20,13 @@ comparison to installing any other Hass.io add-on.
 
 ## Configuration
 
-Webui can be found at `<your-ip>:7878`.
+Webui can be found at <your-ip>:7878 
+
+By default hassio folders backup, share and ssl are available within the addon.
+You can use the share folder to access/store your media files.
+
+Documentation for Radarr: https://github.com/Radarr/Radarr
 
 
-[repository]: https://github.com/IonutNeagu/ha-addons
+
+[repository]: https://github.com/marcelveldt/hassio-addons-repo
